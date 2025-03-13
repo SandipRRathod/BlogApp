@@ -1,6 +1,6 @@
 FROM openjdk:19
 
-EXPOSE 3607
+EXPOSE 8080
 
 # Set the working directory inside the container
 WORKDIR /app
