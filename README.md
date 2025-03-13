@@ -87,7 +87,7 @@ The application is accessible via:
 
 | Method | Endpoint                 | Description                                                                        |
 | ------ | ------------------------ | ---------------------------------------------------------------------------------- |
-| GET    | `/api/ai/summarize`      | Summarize provided blog content                                                    |
+| POST    | `/api/ai/summarize`      | Summarize provided blog content                                                    |
 | GET    | `/api/ai/summarize/{id}` | Summarize blog content by blog ID (not working, included for potential future use) |
 
 ## Project Dependencies (From `pom.xml`)
