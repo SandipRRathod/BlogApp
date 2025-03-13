@@ -1,8 +1,9 @@
 # BlogApp
 
-## Overview
+## Overview & Objective
 
-BlogApp is a RESTful API built using Spring Boot. It provides endpoints for managing blog posts and AI-powered blog summarization.
+BlogApp is a backend service built using Java Spring Boot that allows users to create, retrieve, and manage blogs. It utilizes JPA for database
+interactions and includes a simple AI-powered text summarization feature. The application is deployed on AWS EC2 using Docker
 
 ## Features
 
