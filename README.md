@@ -14,7 +14,7 @@ interactions and includes a simple AI-powered text summarization feature. The ap
 
 ## Technologies Used
 
-- Spring Tool Suit IDE
+- Spring Tool Suite IDE
 - Java
 - Spring Boot 
 - Lombok
