@@ -14,6 +14,7 @@ interactions and includes a simple AI-powered text summarization feature. The ap
 
 ## Technologies Used
 
+- Spring Tool Suit IDE
 - Java
 - Spring Boot 
 - Lombok
@@ -29,10 +30,11 @@ interactions and includes a simple AI-powered text summarization feature. The ap
 
 Ensure you have the following installed:
 
-- Java 17 or later
+- Java 17
 - Maven
 - MySQL
 - Git
+- STS /EClipse /VS Code For Running The Application
 
 ### Clone the Repository
 
