@@ -4,7 +4,7 @@ services:
  app:
   image: sandip7666/blogapp:01      #link with app image 
   ports:
-  - 3607:3607
+  - 8080:8080
   environment:
    SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/BlogDB
    SPRING_DATASOURCE_USERNAME: admin
