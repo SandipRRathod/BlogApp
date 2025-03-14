@@ -66,8 +66,8 @@ The server will start at `http://localhost:8080`.
 
 The application is accessible via:
 
-1. [http://ec2-13-203-76-212.ap-south-1.compute.amazonaws.com](http://ec2-13-203-76-212.ap-south-1.compute.amazonaws.com/api)
-2. [https://ec2-13-203-76-212.ap-south-1.compute.amazonaws.com](https://ec2-13-203-76-212.ap-south-1.compute.amazonaws.com/api)
+1. [http://ec2-3-110-163-144.ap-south-1.compute.amazonaws.com](http://ec2-3-110-163-144.ap-south-1.compute.amazonaws.com)
+2. [[https://ec2-13-203-76-212.ap-south-1.compute.amazonaws.com](http://ec2-3-110-163-144.ap-south-1.compute.amazonaws.com/api)
 
 **Note :- If the second is not working, then use the first or vice versa.**
 
@@ -87,8 +87,8 @@ The application is accessible via:
 
 | Method | Endpoint                 | Description                                                                        |
 | ------ | ------------------------ | ---------------------------------------------------------------------------------- |
-| POST    | `/api/ai/summarize`      | Summarize provided blog content                                                    |
-| GET    | `/api/ai/summarize/{id}` | Summarize blog content by blog ID (not working, included for potential future use) |
+| GET    | `/api/ai/summarize`      | Summarize provided blog content                                                    |
+| GET    | `/api/ai/summarize/{id}` | Summarize blog content by blog ID                                                  |
 
 ## Project Dependencies (From `pom.xml`)
 
